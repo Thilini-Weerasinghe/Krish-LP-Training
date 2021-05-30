@@ -1,0 +1,11 @@
+{
+  "name": "repititioncharacters",
+  "version": "1.0.0",
+  "description": "This is a project that implements to find repitition characters in a sentence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thilini",
+  "license": "ISC"
+}
