@@ -1,0 +1,14 @@
+{
+  "name": "thirdlargestnumber",
+  "version": "1.0.0",
+  "description": "This project is going to find third largest number from an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thilini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
