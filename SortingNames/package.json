@@ -1,0 +1,14 @@
+{
+  "name": "sortingnames",
+  "version": "1.0.0",
+  "description": "This is a project that develop to sort the 30 namelists according to itsnumber value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thilini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
