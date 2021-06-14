@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    bootstrap:
+      enabled: true
+
+  application:
+    name: membership
