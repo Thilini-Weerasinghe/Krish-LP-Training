@@ -15,9 +15,6 @@ import { FormGroup } from '@angular/forms';
 })
 export class ListComponent implements OnInit {
   [x: string]: any;
-
-  // owners: any [] = owners;
-  // owners !: Owner[];
   formValue !: FormGroup;
   ownerData !: any;
   

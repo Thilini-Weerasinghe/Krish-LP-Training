@@ -16,10 +16,7 @@ import { EditPetComponent } from './pets/edit-pet/edit-pet.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    CreatePetComponent,
-    ListPetComponent,
-    EditPetComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,

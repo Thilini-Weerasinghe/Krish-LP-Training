@@ -1,1 +1,44 @@
-<p>list-pet works!</p>
+<div class="card">
+    <div class=" row card-header">
+        <div class="col-lg-11"> PETS LIST</div>
+        <div class=" col-lg-1 add-button">
+            <button class="btn btn-success" (click)="btnClick();"> Add Pet</button>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="table-responsive mt-3">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"> ID</th>
+                        <th scope="col">Pet Name</th>
+                        <th scope="col">Owner Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col"> Edit</th>
+                        <th scope="col"> Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let pet of petData; let i = index">
+                        <td> {{pet.id}}</td>
+                        <td> {{pet.petName}}</td>
+                        <td> {{pet.ownerName}}</td>
+                        <td> {{pet.age}}</td>
+                        <td align="center">
+                            <button class="btn-lg btn-custom  btn-success" (click)="onEdit(pet.id)">Edit</button>
+
+                        </td>
+                        <td align="center">
+                            <button class="btn-lg btn-custom  btn-danger" (click)="deletePet(pet.id)">Delete</button>
+                        </td>
+                    </tr>
+                    <!-- <p class="text-center"><b>No records found</b></p> -->
+                    <!-- <tr *ngIf="!ownerData.length">
+                        <p class="text-center"><b>No records found</b></p>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

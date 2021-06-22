@@ -57,11 +57,22 @@
       "contactNumber": 715929543
     },
     {
-      "id": 25,
-      "firstName": "Thilini",
-      "lastName": "Weerasinghe",
-      "address": "45, Mainstreet, Kalutara south",
-      "contactNumber": 715929543
+      "id": 1,
+      "petName": "Rubby",
+      "ownerName": "Weerasinghe",
+      "age": 3
+    },
+    {
+      "id": 2,
+      "petName": "Pinky",
+      "ownerName": "Ajith",
+      "age": 4
+    },
+    {
+      "id": 9,
+      "petName": "Buddy",
+      "ownerName": "Bandara",
+      "age": 7
     }
   ],
   "comments": [],

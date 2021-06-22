@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup} from '@angular/forms'
-// import { Owner } from '../Owners.model';
+import {FormBuilder, FormGroup} from '@angular/forms';
 import { PetsModule } from '../pets.module';
 import { HttpService } from 'src/app/shared/http.service';
 import { Router, RouterModule } from '@angular/router';
+import { Pet } from '../Pets.model';
 
 @Component({
   selector: 'pc-create-pet',
@@ -14,7 +14,7 @@ export class CreatePetComponent implements OnInit {
   [x: string]: any;
 
   formValue !: FormGroup;
-  //ownersModelObj : Owner = new Owner();
+  petsModelObj : Pet = new Pet();
 
   constructor(
     private formBuilder: FormBuilder,
@@ -26,27 +26,26 @@ export class CreatePetComponent implements OnInit {
 
     this.formValue = this.formBuilder.group({
       id : [''],
-      pettName : [''],
+      petName : [''],
       ownerName : [''],
       age: ['']
     })
   }
 
   postPetDetails(){
-    this.ownersModelObj.id = this.formValue.value.id;
-    this.ownersModelObj.firstName = this.formValue.value.firstName;
-    this.ownersModelObj.lastName = this.formValue.value.lastName;
-    this.ownersModelObj.address = this.formValue.value.address;
-    this.ownersModelObj.contactNumber = this.formValue.value.contactNumber;
+    this.petsModelObj.id = this.formValue.value.id;
+    this.petsModelObj.petName = this.formValue.value.petName;
+    this.petsModelObj.ownerName = this.formValue.value.ownerName;
+    this.petsModelObj.age = this.formValue.value.age;
 
-        this.httpService.postOwner(this.ownersModelObj)
+        this.httpService.postOwner(this.petsModelObj)
       .subscribe((res: any) => {
         console.log(res);
-        alert("Added owner successfully")
+        alert("Added pet successfully")
         let ref = document.getElementById('cancel')
         ref?.click();
         this.formValue.reset();
-        this.router.navigateByUrl('/owners/list');
+        this.router.navigateByUrl('/pets/list');
       },
         (      err: any) => {
         alert("something went wrong");

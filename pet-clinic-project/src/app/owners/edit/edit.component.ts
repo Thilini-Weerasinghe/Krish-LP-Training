@@ -23,7 +23,6 @@ export class EditComponent implements OnInit {
 
   ngOnInit(): void {
 
-    // this.getOwner(this.ownersModelObj.id  );
 
     this.formValue = this.formBuilder.group({
       id : [''],
