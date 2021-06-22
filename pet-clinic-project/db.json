@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "firstName": "Amal",
+      "lastName": "Perera",
+      "address": "54, temple road, kalutara",
+      "contactNumber": 5675675671
+    },
+    {
+      "id": 4,
+      "firstName": "Sanduni",
+      "lastName": "Fernando",
+      "address": "67, Flower road, panadura",
+      "contactNumber": 454545456799
+    },
+    {
+      "id": 5,
+      "firstName": "Sumudu",
+      "lastName": "Wijerathne",
+      "address": "98/A, Jawatta road, Villegoda",
+      "contactNumber": 9879879876
+    },
+    {
+      "id": 8,
+      "firstName": "Thilini",
+      "lastName": "Weerasinghe",
+      "address": "41, Kajugas Watta",
+      "contactNumber": 715929543
+    },
+    {
+      "id": 11,
+      "firstName": "Thilini",
+      "lastName": "Weerasinghe",
+      "address": "41, Kajugas Watta",
+      "contactNumber": 715929543
+    },
+    {
+      "id": 12,
+      "firstName": "Thilini",
+      "lastName": "Weerasinghe",
+      "address": "41, Kajugas Watta, Villegoda, Kalutara north",
+      "contactNumber": 715929543
+    },
+    {
+      "id": 15,
+      "firstName": "Thilini",
+      "lastName": "Wijerathne",
+      "address": "41, Kajugas Watta",
+      "contactNumber": 713749416
+    },
+    {
+      "id": 20,
+      "firstName": "Thilini",
+      "lastName": "Weerasinghe",
+      "address": "41, Kajugas Watta",
+      "contactNumber": 715929543
+    },
+    {
+      "id": 25,
+      "firstName": "Thilini",
+      "lastName": "Weerasinghe",
+      "address": "45, Mainstreet, Kalutara south",
+      "contactNumber": 715929543
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

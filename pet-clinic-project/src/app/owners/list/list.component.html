@@ -1,0 +1,55 @@
+<div class="card">
+    <div class=" row card-header">
+        <div class="col-lg-11"> OWNERS LIST</div>
+        <div class=" col-lg-1 add-button">
+            <!-- <a routerLink="/owners/create"> -->
+            <button class="btn btn-success" (click)="btnClick();"> Add
+                Owner</button>
+            <!-- </a> -->
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="table-responsive mt-3">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"> ID</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Contact Number</th>
+                        <th scope="col align-center"> Edit</th>
+                        <th scope="col"> Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let owner of ownerData; let i = index">
+                        <td> {{owner.id}}</td>
+                        <td> {{owner.firstName}}</td>
+                        <td> {{owner.lastName}}</td>
+                        <td> {{owner.address}}</td>
+                        <td> {{owner.contactNumber}}</td>
+                        <td align="center">
+                            <!-- <a routerLink="/owners/create"> -->
+                            <button class="btn-lg btn-custom  btn-success" (click)="onEdit(owner.id)">Edit</button>
+
+                        </td>
+                        <td align="center">
+                            <!-- <span *ngIf="confirmDelete">
+                        <span> Are you sure to delete</span>
+                        <button class="btn-lg btn-custom  btn-danger" (click)="deleteOwner()">Yes</button>
+                        <button class="btn-lg btn-custom  btn-primary" (click)="confirmDelete=false">No</button>
+                        </span> -->
+                            <button class="btn-lg btn-custom  btn-danger"
+                                (click)="deleteOwner(owner.id)">Delete</button>
+                        </td>
+                    </tr>
+                    <!-- <tr *ngIf="!ownerData.length">
+                        <p class="text-center"><b>No records found</b></p>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

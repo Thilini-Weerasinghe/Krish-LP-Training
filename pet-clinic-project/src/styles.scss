@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  .card-header {
+    font-weight: bold;
+    color: darkblue;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+}
+
+.form {
+  padding: 20px;
+  .form-header {
+    font-weight: bold;
+    color: darkblue;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+}

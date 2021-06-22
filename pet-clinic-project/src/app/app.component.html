@@ -1,0 +1,34 @@
+<div>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand"> | PET CARE CENTRE | </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink='/home'>HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink='/owners/list'> OWNERS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link "> PETS </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <ul class="navbar-nav mr-4">
+            <li class="nav-item">
+                <button class="btn btn-primary logout"> logout </button>
+                <!-- <a class="nav-link logout">Logout</a> -->
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div>
+    <router-outlet></router-outlet>
+</div>

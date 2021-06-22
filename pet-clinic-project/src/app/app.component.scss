@@ -1,0 +1,38 @@
+.navbar {
+  background: #3b5998;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  background: #f4f4f4;
+  color: #070707;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+.message {
+  color: #f4f4f4;
+}
+
+.btn-primary {
+  width: 150px;
+  color: black;
+  padding: auto;
+  margin-right: 20px;
+}
+.logout {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red;
+}

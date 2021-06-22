@@ -1,0 +1,28 @@
+<form [formGroup]="formValue" class="form">
+    <div class="form-header">
+        PETS DETAILS
+    </div>
+    <div class="mb-3">
+        <label for="inputId" class="form-label">ID</label>
+        <input type="number" class="form-control" formControlName="id" id="inputId">
+        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+    </div>
+    <div class="mb-3">
+        <label for="inputPetName" class="form-label">Pet Name</label>
+        <input type="text" class="form-control" formControlName="petName" id="inputPetName">
+        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+    </div>
+    <div class="mb-3">
+        <label for="inputOwnerName" class="form-label">Owner Name</label>
+        <input type="text" class="form-control" formControlName="ownerName" id="inputOwnerName">
+    </div>
+    <div class="mb-3">
+        <label for="inputage" class="form-label"> Age</label>
+        <input type="number" class="form-control" formControlName="age" id="inputage">
+    </div>
+    <div class="footer mb-3">
+        <button type="submit" id="cancel" class="btn btn-secondary"> Cancel </button>
+        <button type="submit" (click)="postOwnerDetails()" class="btn btn-primary">Submit</button>
+    </div>
+
+</form>

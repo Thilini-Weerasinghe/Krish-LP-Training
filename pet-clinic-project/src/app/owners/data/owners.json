@@ -1,0 +1,11 @@
+[
+    {"id": 1,"firstName": "Thilini", "lastName" :"Weerasinghe", "address":"41,Galle road, Kalutara", "contactNumber": "8976543256" },
+    {"id": 2, "firstName": "Sachini", "lastName" :"Kavindya", "address":"91,Galle road, Kalutara-North", "contactNumber": "8977653256" },
+    {"id": 3,"firstName": "Achini", "lastName" :"vindya", "address":"51,Galle road, Waskaduwa", "contactNumber": "5675678906" },
+    {"id": 4,"firstName": "Sunil", "lastName" :"Perera", "address":"98,Street road, Kalutara-North", "contactNumber": "077653256" },
+    {"id": 5,"firstName": "Kasuni", "lastName" :"De Silva", "address":"53, Temple road, Uggalboda", "contactNumber": "0776599996" },
+    {"id": 6,"firstName": "Sani", "lastName" :"Koorey", "address":"61/A,Galle road, Kalutara", "contactNumber": "07765325896" },
+    {"id": 7,"firstName": "Jagath", "lastName" :"Wikramasinghe", "address":"87, Main road, Panadura", "contactNumber": "89776678678" },
+    {"id": 8,"firstName": "Nuwan", "lastName" :"Fernando", "address":"54, Temple road, Kalutara-South", "contactNumber": "0715675676" },
+    {"id": 9,"firstName": "Amal", "lastName" :"Perera", "address":"21, Flower Garden, Horana", "contactNumber": "0713453456789" },
+    {"id": 10,"firstName": "Sanduni", "lastName" :"Navodya", "address":"33, Down road, Waskaduwa", "contactNumber": "0768953256" }]
